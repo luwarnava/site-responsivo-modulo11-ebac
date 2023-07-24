@@ -1,2 +1,10 @@
-# site-responsivo-modulo11-ebac
-Site responsivo criado para o curso da EBAC módulo 11, criação de uma loja online de Pet Shop.
+🖥️ Projeto
+Esse é um projeto Web Responsivo de uma loja Pet Shop.
+
+🚀 Tecnologias
+Esse projeto foi desenvolvido durante o curso da EBAC, módulo 11, com as seguintes tecnologias:
+
+HTML
+CSS
+javaScript
+Git e Github
