@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja responsiva - EBAC</title>
+
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>PET SHOP MIAU</h1>
+    <nav>
+        <li>
+            <a href="#about">Sobre a loja</a>
+        </li>
+        <li>
+            <a href="#produtos">Produtos</a>
+        </li>
+        <li>
+            <a href="#contact">Contato</a>
+        </li>
+    </nav>
+    </header>
+    <section id="about">
+        <div class="sobre">
+        <img src="./assets/sobre nos.jpg" alt="casal em loja pet shop segurando um cachorro">
+        <div>
+            <h2>SOBRE A LOJA</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, placeat. Tenetur adipisci, magni quod porro tempore sapiente labore dolor dolore. Quae explicabo blanditiis laudantium sequi eum, magni ratione autem commodi?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, facere, ipsa quos neque at delectus reprehenderit modi, obcaecati deleniti doloremque voluptate reiciendis? Sint, debitis. Harum minus inventore ipsum distinctio autem.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum adipisci nemo et esse recusandae, ipsum quidem placeat iure culpa ipsam! Illum aperiam nostrum recusandae similique doloremque deserunt cumque fugiat quod.</p>
+    </div>
+    </section>
+    <section id="produtos">
+        <div class="product">
+        <h2>PRODUTOS</h2>
+        <ul class="lista-produtos">
+            <li>
+                <img src="./assets/arranhador.jpg" alt="">
+                <h3>Arranhador para gatos</h3>
+                <p>
+                    Arranhador para gato feito de cordas com pé em madeira, ideau para seu gato se divertir
+                </p>
+                <strong id="price">$85,00</strong>
+                <button type="button">Comprar</button>
+            </li>
+            <li>
+                <img src="./assets/ração osso.jpg" alt="">
+                <h3>Ração para cães</h3>
+                <p>
+                   Ração para cães em formato de osso, para cães adultos
+                <strong id="price">$45,00</strong>
+                <button type="button">Comprar</button>
+            </li>
+            <li>
+                <img src="./assets/ração gato.png" alt="">
+                <h3>Ração para gatos</h3>
+                <p>
+                    Ração tipo macia com pedaços de salmão, para gatos jovens
+                </p>
+                <strong id="price">$35,00</strong>
+                <button type="button">Comprar</button>
+            </li>
+            <li>
+                <img src="./assets/tapete.jpg" alt="">
+                <h3>Tapete sanitário</h3>
+                <p>
+                    Tapete sanitário para pets, imita grama natural, para seu bichinho se sentir mais confortável
+                </p>
+                <strong id="price">$97,00</strong>
+                <button type="button">Comprar</button>
+            </li>
+        </ul>
+    </div>
+    </section>
+    <section id="contact product">
+        <div class="secao-1">
+            <h2 id="h2-cadastro">CADASTRO</h2>
+    <form>
+        <div class="form-campo">
+            <label for="name">Nome completo:</label>
+            <input type="text" id="name" required> <br>
+        </div>
+        <div class="form-campo">
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" required><br>
+         </div>
+         <div class="form-campo">
+            <label for="email">Email:</label>
+            <input type="email" id="email" required><br>
+         </div>
+         <div class="form-campo">
+            <label for="product">Produto:</label>
+            <input type="text" id="product" required><br>
+        </div>
+        <div class="form-campo">
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem"></textarea>
+        </div>
+        <button id="button-cadastro" type="submit">Enviar</button>
+    </form>
+</div>
+</section>
+<section id="contact">
+    <div class="secao-2">
+        <h2>FALE CONOSCO</h2>
+        <img src="./assets/fale conosco.jpg" alt="cachorro com roupa e óculos na frente do computador">
+                <h4>Whatsapp: <a href="#" title="Whatsapp">(99) 9 9999-9999</a></h4>
+                <h4>Telefone: <a href="#" title="Telefone">(99) 9999-9999</a></h4>
+            <h3>Nos acompanhe nas redes sociais:</h3>
+            <ul class="social-links">
+                <li>
+                    <a href="#" title="Siga-nos no twitter">
+                    <img id="icons" src="./assets/twitter.png" alt="logo do twitter">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" title="Siga-nos no facebook">
+                    <img id="icons" src="./assets/facebook.png" alt="logo do facebook">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" title="Siga-nos no instagram">
+                    <img id="icons" src="./assets/instagram.png" alt="logo do instagram">
+                    </a>
+                </li>
+            </ul>
+    </div>
+</section>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="./main.js"></script>
+
+</body>
+</html>
